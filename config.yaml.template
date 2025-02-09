@@ -1,0 +1,9 @@
+DebugMode: false
+LogLevel: 4
+ApiPort: 44443
+DataBaseType: "sqlite"
+DatabaseDSN: "./giteaCalendar.db"
+
+Server: "https://git.example.com:9000"
+UserName: ""
+ApiKey: ""
