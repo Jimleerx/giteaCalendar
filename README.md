@@ -15,7 +15,23 @@ demo: [https://gitea-calendar.luckykeeper.site:44443/](https://gitea-calendar.lu
 ![demo](./images/demo.png)
 
 ## 使用
-
+### Update
+#### /api/Calendar 
+response react-activity-calendar json
+```
+{
+  total: {
+    year: 3123
+  },
+  contributions: [
+    {
+      date: 2025-01-01,
+      count: 10,
+      level: 1
+    }
+  ]
+}
+```
 ### 配置文件
 
 下载 Release 二进制文件，在同级目录新建一个 `config.yaml` 文件，其模板如下
